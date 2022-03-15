@@ -1,4 +1,4 @@
-name: Java CI
+name: Lab_3 CI
 
 on: [push]
 
