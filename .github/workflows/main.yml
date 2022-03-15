@@ -21,8 +21,11 @@ jobs:
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
 
+      - name: Maven
+        run: mvn clean install
+        
       - name: Test with Maven
         run: mvn -B test --file pom.xml
-
+        
       - name: Test PriorityQueue.java
         run: mvn compile exec:java -Dexec.mainClass="PriorityQueueTest"
