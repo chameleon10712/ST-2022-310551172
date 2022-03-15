@@ -9,7 +9,6 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-
 public class PriorityQueueTest {
     static Stream<Arguments> streamProvider() {
         return Stream.of(
