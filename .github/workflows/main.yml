@@ -24,4 +24,4 @@ jobs:
         run: mvn -B test --file pom.xml
 
       - name: Test PriorityQueue.java
-        run: ls
+        run: mvnexec
