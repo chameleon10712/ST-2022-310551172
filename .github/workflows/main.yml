@@ -24,6 +24,6 @@ jobs:
       - name: Maven
         run: mvn clean install
         
-      - name: Test with Maven
+      - name: Run PriorityQueueTest.java
         run: mvn -B test --file pom.xml
         
