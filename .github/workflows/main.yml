@@ -27,5 +27,3 @@ jobs:
       - name: Test with Maven
         run: mvn -B test --file pom.xml
         
-      - name: Test PriorityQueue.java
-        run: mvn compile exec:java -Dexec.mainClass="PriorityQueueTest"
