@@ -25,5 +25,5 @@ jobs:
         run: mvn clean install
         
       - name: Run PriorityQueueTest.java
-        run: mvn -B test --file pom.xml
+        run: mvn test
         
