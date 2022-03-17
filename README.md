@@ -7,6 +7,8 @@ Pass
 
 ![pass](https://i.imgur.com/YCXmuiL.png)
 
+![log](https://i.imgur.com/KWSjwXg.png)
+
 
 Fail
 
